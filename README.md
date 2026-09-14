@@ -27,7 +27,7 @@
 
 从官网下载最新版 Android Studio（Quail 系列），按向导完成安装。首次启动时会下载 SDK 组件，需要保持网络畅通。
 
-![image-20260914171215635](C:\Users\lll\AppData\Roaming\Typora\typora-user-images\image-20260914171215635.png)
+![image-20260914171215635](\image\image-20260914171215635.png)
 
 ### 3.2 创建第一个 Android 工程
 
@@ -42,7 +42,7 @@
 
 1. 点击 ***\*Finish\****，等待工程创建完成。
 
-![image-20260914171236883](C:\Users\lll\AppData\Roaming\Typora\typora-user-images\image-20260914171236883.png)
+![image-20260914171236883](\image\image-20260914171236883.png)
 
 ### 3.3 解决 Gradle 同步失败问题
 
@@ -59,7 +59,7 @@
 distributionUrl=https\://mirrors.cloud.tencent.com/gradle/gradle-9.5.0-bin.zip
 ```
 
-![image-20260914171304329](C:\Users\lll\AppData\Roaming\Typora\typora-user-images\image-20260914171304329.png)
+![image-20260914171304329](\image\image-20260914171304329.png)
 
 ***\*问题2：AGP 插件无法解析\****
 
@@ -82,11 +82,11 @@ pluginManagement {
 }
 ```
 
-![image-20260914171323496](C:\Users\lll\AppData\Roaming\Typora\typora-user-images\image-20260914171323496.png)
+![image-20260914171323496](\image\image-20260914171323496.png)
 
 同步成功后，界面不再显示 "Gradle project sync failed" 提示。
 
-![image-20260914171405686](C:\Users\lll\AppData\Roaming\Typora\typora-user-images\image-20260914171405686.png)
+![image-20260914171405686](\image\image-20260914171405686.png)
 
 ### 3.4 运行 HelloWorld 程序
 
@@ -105,7 +105,7 @@ setContent {
 }
 ```
 
-![image-20260914171718747](C:\Users\lll\AppData\Roaming\Typora\typora-user-images\image-20260914171718747.png)
+![image-20260914171718747](\image\image-20260914171718747.png)
 
 ### 3.5 注册 GitHub 账号并安装 Git 工具
 
@@ -123,9 +123,9 @@ setContent {
 4. 点击顶部 ***\*Publish repository\****，选择公开/私有后发布到 GitHub；
 5. 发布完成后点击 ***\*View on GitHub\**** 在浏览器中确认仓库内容。
 
-![image-20260914171908884](C:\Users\lll\AppData\Roaming\Typora\typora-user-images\image-20260914171908884.png)
+![image-20260914171908884](\image\image-20260914171908884.png)
 
-![image-20260914171809768](C:\Users\lll\AppData\Roaming\Typora\typora-user-images\image-20260914171809768.png)
+![image-20260914171809768](\image\image-20260914171809768.png)
 
 ### 3.7 Android 工程忽略文件
 
@@ -140,7 +140,7 @@ Android 工程的 `.gitignore` 用于排除不需要版本控制的文件，例�
 
 【截图11：工程中的 .gitignore 文件内容】
 
-![image-20260914170819880](C:\Users\lll\AppData\Roaming\Typora\typora-user-images\image-20260914170819880.png)
+![image-20260914170804314](\image\image-20260914170804314.png)
 
 ## 四、实验结果
 
